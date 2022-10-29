@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  background-color: rgb(85, 85, 138);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todolistMain .header input{
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(241, 236, 225);
+  width: 80%;
+  border-radius: 5px;
 }
+
+.todolistMain .header button{
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: rgb(150, 97, 28);
+  color: white;
+  border: 2px solid rgb(170, 108, 28);
+  border-radius: 5px;
+  
+}
+
+.todolistMain .header button:hover{
+  border: 2px solid rgb(102, 68, 24);
+  background-color: rgb(117, 82, 36);
+  cursor: pointer;
+}
+
+.todolistMain .taskslist{
+  color: #333;
+  background-color: rgb(190, 181, 168);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.todolistMain .taskslist li
+{
+  color: #333;
+  background-color: rgb(190, 181, 168);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: .2s ease-out;
+
+}
+
+.todolistMain .taskslist li:hover{
+  background-color: plum;
+  cursor: pointer;
+}
+
+
+
+
+
+
