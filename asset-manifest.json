@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kami987665273899934829367/Todo.git/static/css/main.6038b051.css",
+    "main.js": "/kami987665273899934829367/Todo.git/static/js/main.20ad5ae2.js",
+    "index.html": "/kami987665273899934829367/Todo.git/index.html",
+    "main.6038b051.css.map": "/kami987665273899934829367/Todo.git/static/css/main.6038b051.css.map",
+    "main.20ad5ae2.js.map": "/kami987665273899934829367/Todo.git/static/js/main.20ad5ae2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6038b051.css",
+    "static/js/main.20ad5ae2.js"
+  ]
+}
